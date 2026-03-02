@@ -18,11 +18,17 @@ The goal of this project is to build a strong foundation in reproducible and org
 
 ## Introduction
 **Git** is the version control system that tracks changes in your code.
+
 **GitHub** is the platform where you can store your code in the cloud and collaborate with others.
+
 **Version Control** is a system that records changes to a file or set of files over time.
+
 **Repository** is the folder that stores your work. 
+
 **Local Repository** is stored on your computer and contains all your project files and version history. It's where you make changes, stage, and commit your work.
+
 **Remote Repository** like one hosted on GitHub, is stored online and acts as a shared version of your project for collaboration or backup. You push changes from your local repository to the remote, ensuring everyone working on the project has access to the latest version. Similarly, you pull updates from the remote to keep your local copy up to date.
+
 **Commit** is a snapshot of changes made to files within a version control system, serving as a saved point in a project's history. It acts as a permanent record of a specific unit of work, allowing developers to track, compare, and revert to previous versions of the codebase.
 
 ---
