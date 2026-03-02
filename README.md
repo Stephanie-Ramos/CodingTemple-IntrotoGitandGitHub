@@ -47,27 +47,27 @@ Git typically defaults to master for new repositories. You can set it to main by
 git config --global init.defaultBranch main
 
 ### Creating and updating a Github Repository
-Initial Setup Steps
+#### Initial Setup Steps
 
 You will only need to run these steps once per project, the very first time you make each repository.
 
-Create a local repository: This is your starting point to track changes in your project. If you've already created a local git repository, you can skip this step.
+1. Create a local repository: This is your starting point to track changes in your project. If you've already created a local git repository, you can skip this step.
 
 git init
 
-Create a remote repository:
+2. Create a remote repository:
 
 Go to GitHub.com and create a new repository by clicking the '+' icon in the top right hand corner on your dashboard.
 
 Copy the remote URL.
 
-Connect the local repository to the remote:
+3. Connect the local repository to the remote:
 
 git remote add origin <github repository url>
 
 - A remote, is the connection between your local git repository and your Github cloud repository- Origin, is the name of the remote. So, when we want to utilize this specific connection we will reference the name.
 
-Push the work from your local repository to your cloud repository
+4. Push the work from your local repository to your cloud repository
 
 git push origin main
 
@@ -85,27 +85,23 @@ Staging a change is like preparing your work for review before submitting it. Wh
 
 You will run these steps every time you want to track changes to your repository:
 
-git add .                      # Stage your changes
-git commit -m "message"        # Commit changes with a message
-git push origin <branch>       # Push changes to the remote repository
+- git add .                      # Stage your changes
+- git commit -m "message"        # Commit changes with a message
+- git push origin <branch>       # Push changes to the remote repository
 
 
 
 ### Essential Git Commands
 
-git status	
-Shows the status of your repository.
+- git status: Shows the status of your repository.
 
-git branch	
-Lists all branches in your repository.
+- git branch: Lists all branches in your repository.
 
-git checkout <branch>	
-Switches to the specified branch.
+- git checkout <branch>: Switches to the specified branch.
 
-git checkout -b <branch>	
-Creates a new branch and switches to it.
+- git checkout -b <branch>: Creates a new branch and switches to it.
 
-git remote -v	
+- git remote -v: Displays the remote repositories your project is connected to.
 
 
 ---
