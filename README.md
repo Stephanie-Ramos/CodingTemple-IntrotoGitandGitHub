@@ -17,23 +17,18 @@ The goal of this project is to build a strong foundation in reproducible and org
 ---
 
 ## Introduction
-This project serves as an **introduction to Git and GitHub**, focusing on foundational version control concepts and workflows commonly used in software development and data-related projects. The repository is designed to help beginners understand how to track changes, manage code versions, and collaborate using Git and GitHub.
-
-Through hands-on practice, this project reinforces key skills such as initializing repositories, committing changes, pushing updates to GitHub, and understanding how version control supports collaboration and reproducibility.
-
-### Key Concepts
-Git is the version control system that tracks changes in your code.
-GitHub is the platform where you can store your code in the cloud and collaborate with others.
-
-
----
-
-## Installation
-
+**Git** is the version control system that tracks changes in your code.
+**GitHub** is the platform where you can store your code in the cloud and collaborate with others.
+**Version Control** is a system that records changes to a file or set of files over time.
+**Repository** is the folder that stores your work. 
+**Local Repository** is stored on your computer and contains all your project files and version history. It's where you make changes, stage, and commit your work.
+**Remote Repository** like one hosted on GitHub, is stored online and acts as a shared version of your project for collaboration or backup. You push changes from your local repository to the remote, ensuring everyone working on the project has access to the latest version. Similarly, you pull updates from the remote to keep your local copy up to date.
+**Commit** is a snapshot of changes made to files within a version control system, serving as a saved point in a project's history. It acts as a permanent record of a specific unit of work, allowing developers to track, compare, and revert to previous versions of the codebase.
 
 ---
 
-## Setup
+## Installation and Setup
+
 
 
 
@@ -41,12 +36,25 @@ GitHub is the platform where you can store your code in the cloud and collaborat
 
 ## Usage
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+###Essential Git Commands
+
+git status	
+Shows the status of your repository.
+
+git branch	
+Lists all branches in your repository.
+
+git checkout <branch>	
+Switches to the specified branch.
+
+git checkout -b <branch>	
+Creates a new branch and switches to it.
+
+git remote -v	
+
 
 ---
 
 ## Credits 
-Coding Temple 
+Coding Temple, Reddit 
 
